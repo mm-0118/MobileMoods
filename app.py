@@ -5,6 +5,9 @@ import google.generativeai as genai
 from bs4 import BeautifulSoup
 from datetime import datetime
 import json, re, os
+import dotenv 
+dotenv.load_dotenv()
+
 
 # -------------------------------
 # STREAMLIT PAGE CONFIG + STYLE
@@ -167,7 +170,7 @@ def summarize_feedback(comments, apiKey, sentiment_type):
 # -------------------------------
 # LOAD KEY + HTML
 # -------------------------------
-GEMINI_API_KEY = os.getenv("AIzaSyCA-l_rtWk3d8BiWsNkpPB517BL6UJwDbQ")  # hidden via .env
+GEMINI_API_KEY = os.getenv("GEMINI")
 HTML_PATH = "savedDownDetectorPage.html"
 
 
