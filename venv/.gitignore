@@ -1,0 +1,17 @@
+# Ignore environment files and secrets
+.env
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore macOS system files
+.DS_Store
+
+# Allow everything else
