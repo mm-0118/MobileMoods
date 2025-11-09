@@ -178,7 +178,7 @@ with open(HTML_PATH, "r", encoding="utf-8") as f:
 # -------------------------------
 # ANALYSIS PIPELINE
 # -------------------------------
-st.markdown("<h1>MagentaPulse: T-Mobile Customer Happiness Index</h1>", unsafe_allow_html=True)
+st.markdown("<h1>MobileMoods: T-Mobile Customer Happiness Index</h1>", unsafe_allow_html=True)
 st.markdown(f"<div class='sub-header'>Last updated: {datetime.now().strftime('%B %d, %Y %I:%M %p')}</div>", unsafe_allow_html=True)
 
 with st.spinner("🔍 Analyzing T-Mobile feedback..."):
